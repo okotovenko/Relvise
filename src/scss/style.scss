@@ -845,7 +845,7 @@ body {
 
 			@media (max-width:426px) {
 				font-size: 14px;
-				padding: 10px;
+				padding: 10px 5px;
 			}
 
 		}
@@ -1182,7 +1182,7 @@ body {
 @media (max-width:426px) {
 	.centr {
 		flex-direction: column;
-		gap: 10px;
+		gap: 15px;
 		padding: 10px;
 
 		&__info,
@@ -1191,6 +1191,7 @@ body {
 		&__resources {
 			margin: 0px;
 			width: 100%;
+			gap: 10px 30px;
 
 			& p {
 				font-size: 24px;
@@ -1203,12 +1204,14 @@ body {
 		&__contacs {
 			margin: 0px;
 			width: 100%;
+			gap: 10px 30px;
 
 			& p {
 				font-size: 24px;
 				line-height: calc(20/16)*100%;
 				position: relative;
 				width: 100%;
+				margin-bottom: 5px;
 			}
 		}
 

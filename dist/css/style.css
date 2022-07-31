@@ -965,7 +965,7 @@ body {
 @media (max-width: 426px) {
   .clients__button input {
     font-size: 14px;
-    padding: 10px;
+    padding: 10px 5px;
   }
 }
 
@@ -1274,12 +1274,13 @@ body {
 @media (max-width: 426px) {
   .centr {
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     padding: 10px;
   }
   .centr__info, .centr__legal, .centr__features, .centr__resources {
     margin: 0px;
     width: 100%;
+    gap: 10px 30px;
   }
   .centr__info p, .centr__legal p, .centr__features p, .centr__resources p {
     font-size: 24px;
@@ -1290,12 +1291,14 @@ body {
   .centr__contacs {
     margin: 0px;
     width: 100%;
+    gap: 10px 30px;
   }
   .centr__contacs p {
     font-size: 24px;
     line-height: 125%;
     position: relative;
     width: 100%;
+    margin-bottom: 5px;
   }
   .centr .info,
 .centr .legal,

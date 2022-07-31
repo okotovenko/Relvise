@@ -1,0 +1,5 @@
+# Ігнорувати всі файли в каталозі node_modules/
+node_modules/
+
+# Ігнорувати файл package-lock.json
+package-lock.json
